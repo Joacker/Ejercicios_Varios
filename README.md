@@ -1,2 +1,2 @@
 # Ejercicios_Varios
-Repositorio para realizar varios ejercicios y con fines de aprendizaje.
+Repositorio para realizar varios ejercicios y con fines de aprendizaje. a
