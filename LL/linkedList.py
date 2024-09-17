@@ -61,3 +61,7 @@ my_linked_list.append(3)
 my_linked_list.append(4)
 
 my_linked_list.print_list() # 4, 3
+
+print(my_linked_list.pop()) 
+print(my_linked_list.pop())
+print(my_linked_list.pop())
