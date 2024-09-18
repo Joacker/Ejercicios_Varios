@@ -71,14 +71,23 @@ class LinkedList:
             print(temp.value)
             temp = temp.next
 
-my_linked_list = LinkedList(4)
+    def get(self, index):
+        if index < 0 or index >= self.length:
+            return None
+        temp = self.head
+        for _ in range(index):
+            temp = temp.next
+        return temp
+
+
+my_linked_list = LinkedList(1)
 
 #print(my_linked_list.head.value) # 4
 
 #my_linked_list.print_list() # 4
 
+my_linked_list.append(2)
 my_linked_list.append(3)
-my_linked_list.append(4)
 
 my_linked_list.print_list() # 4, 3
 
@@ -88,3 +97,5 @@ my_linked_list.print_list() # 4, 3
 
 my_linked_list.prepend(5)
 my_linked_list.print_list()
+
+print(my_linked_list.get(0).value)
